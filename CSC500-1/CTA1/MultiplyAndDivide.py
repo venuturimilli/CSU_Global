@@ -21,5 +21,6 @@ _Quoitient = num1/ num2 #Divide
 print('Quotient of', end=' ') #Print Difference
 print(num1, end=' and ')
 print(num2, end=' = ')
-print(_Quoitient)#End
+print(_Quoitient)
+#End
 

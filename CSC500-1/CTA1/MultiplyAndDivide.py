@@ -2,7 +2,7 @@ def my_function(tempNum, text, method): #Function to Check if a given value is a
   if not tempNum.isnumeric():
 	 	tempNum = input('Enter a valid integer - '+ text+' to '+ method+' : ')
   if not tempNum.isnumeric(): #recursive call to check given number is an integer or not
-        tempNum=my_function(tempNum, text, method) 
+    tempNum=my_function(tempNum, text, method) 
   return int(tempNum)
 
 print('Enter number 1 to Multiply/Divide : ', end=' ') #Ask User to enter value 1
